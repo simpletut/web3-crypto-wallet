@@ -1,0 +1,72 @@
+@import './../../styles/variables';
+
+.connectWallet {
+  display: inline-block;
+  width: 100%;
+
+  .wrap {
+    position: relative;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+
+    .btn,
+    .invalidChainMsg {
+      font-size: 18px;
+      line-height: 1;
+      color: $white;
+      border: none;
+      border-radius: 5px;
+      padding: 13px 20px;
+      margin: 0;
+      background: $orange;
+      border: 2px solid $orange;
+      cursor: pointer;
+
+      &:hover {
+        border-color: $darkOrange;
+        @include transition;
+      }
+
+      &.disconnect {
+        border-right: none;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+      }
+    }
+
+    .invalidChainMsg {
+      cursor: default;
+      background-color: $red;
+      border-color: $red;
+
+      &:hover {
+        background: $red;
+        border-color: $red;
+      }
+    }
+
+    .address {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      background: #50a3a2;
+      color: $white;
+      padding: 15px 8px;
+      border-top-right-radius: 5px;
+      border-bottom-right-radius: 5px;
+    }
+
+    .balance {
+      white-space: nowrap;
+      padding: 0 0 0 20px;
+
+      i {
+        margin-right: 10px;
+      }
+    }
+
+  }
+
+
+}

@@ -1,0 +1,19 @@
+// CSS Grid Default
+$gridMaxWidth: 1265px;
+$gutterPaddingWidth: 10px;
+$nestedGridMargin: 0 -10px;
+
+// colors
+$black: #000000;
+$white: #ffffff;
+$orange: #FFAB5E;
+$darkOrange: #ff983b;
+$red: #bc3030;
+$lightGrey: #f8f8f8;
+$green: #48a868;
+$darkGreen: #3d8f58;
+
+@mixin transition {
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}

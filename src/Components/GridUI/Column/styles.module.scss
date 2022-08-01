@@ -1,0 +1,71 @@
+@import './../../../styles/variables';
+
+.column {
+  float: left;
+}
+
+.column,
+.flexbox_col {
+  padding: 0 $gutterPaddingWidth;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.column_1_12 {
+  width: 8.33333%;
+}
+
+.column_2_12 {
+  width: 16.66667%;
+}
+
+.column_3_12 {
+  width: 25%;
+}
+
+.column_4_12 {
+  width: 33.33333%;
+}
+
+.column_5_12 {
+  width: 41.66667%;
+}
+
+.column_6_12 {
+  width: 50%;
+}
+
+.column_7_12 {
+  width: 58.33333%;
+}
+
+.column_8_12 {
+  width: 66.66667%;
+}
+
+.column_9_12 {
+  width: 75%;
+}
+
+.column_10_12 {
+  width: 83.33333%;
+}
+
+.column_11_12 {
+  width: 91.66667%;
+}
+
+.column_12_12 {
+  width: 100%;
+}
+
+@media only screen and (max-width: 960px) {
+  .responsive.column,
+  .responsive.flexbox_col {
+    width: 100%;
+  }
+  .responsive.flexbox {
+    display: block;
+  }
+}

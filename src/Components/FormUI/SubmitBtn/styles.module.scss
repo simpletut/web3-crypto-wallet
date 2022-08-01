@@ -1,0 +1,20 @@
+@import './../../../styles/variables';
+
+.btn {
+  font-size: 18px;
+  line-height: 1;
+  color: $white;
+  border: none;
+  border-radius: 5px;
+  padding: 13px 20px;
+  margin: 0;
+  background: $orange;
+  border: 2px solid $orange;
+  cursor: pointer;
+
+  &:hover {
+    background: $darkOrange;
+    border-color: $darkOrange;
+    @include transition;
+  }
+}

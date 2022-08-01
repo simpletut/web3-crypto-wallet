@@ -1,0 +1,40 @@
+@import './../../styles/variables';
+
+.header {
+  padding: 0;
+  background-color: $white;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 5%);
+
+  .wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    max-width: 1265px;
+    padding: 16px 10px;
+    margin: 0 auto;
+    box-sizing: border-box;
+
+    .logo {
+      i {
+        margin-right: 8px;
+      }
+
+      font-weight: 600;
+      white-space: nowrap;
+    }
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  .header {
+    .wrap {
+      flex-direction: column;
+
+      .logo {
+        margin-bottom: 20px;
+      }
+    }
+  }
+}
