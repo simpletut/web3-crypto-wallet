@@ -29,6 +29,7 @@ This is an example of a Web3 Decentralized Application written with Ethereum and
  - SCSS
  - Solidity 
  - Truffle
+ - Alchemy
  - React Testing Library
 
 **Please note:** I have deployed my Smart Contract to the Goerli Testnet for demo/test purposes .
@@ -99,7 +100,7 @@ Open: `truffle-config.js` and update the `goerli` provider.
 
 Update `'<<--Private Key/s-->>'` with the Private Key from the Address we sent the Test Eth.
 
-**How to Get Private Key**
+**How to get my Private Key**
 
 **Please note:** DO NOT share your Private Key/s with anyone. DO NOT push this code to GitHub with your Private Key/s.
 
