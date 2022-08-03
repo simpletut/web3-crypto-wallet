@@ -1,7 +1,9 @@
 
-# Crypto Wallet - Demo Dapp!
+# Ethereum Blockchain Web3 Dapp - Crypto Wallet/Transfers
 
 **Live demo:** https://crypto-wallet.simpletut.com
+
+This is an example of a Web3 Decentralized Application written with Ethereum and Solidity Smart Contracts.
 
 ![Crypto Wallet](https://user-images.githubusercontent.com/20645523/182588429-d25c2a71-6c09-4f42-a811-318abbe4c44a.png)
 
