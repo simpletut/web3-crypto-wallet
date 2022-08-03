@@ -1,6 +1,8 @@
 
 # Crypto Wallet - Demo Dapp!
 
+**Live demo:** https://crypto-wallet.simpletut.com
+
 ![Crypto Wallet](https://user-images.githubusercontent.com/20645523/182588429-d25c2a71-6c09-4f42-a811-318abbe4c44a.png)
 
 This is an example of a Web3 Decentralized Application written with Ethereum and Solidity Smart Contracts.
@@ -27,9 +29,8 @@ This is an example of a Web3 Decentralized Application written with Ethereum and
  - Truffle
  - React Testing Library
 
-**Live demo:** https://crypto-wallet.simpletut.com
-
 **Please note:** I have deployed my Smart Contract to the Goerli Testnet for demo/test purposes .
+
 **Setup the App:**
 
 Firstly you will need to clone this repository locally and install its dependencies.
@@ -152,3 +153,6 @@ Run the application locally:
 
 `npm test`
 
+**Run Production Build**
+
+`npm run build`
